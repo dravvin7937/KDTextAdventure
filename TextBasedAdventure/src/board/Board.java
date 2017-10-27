@@ -13,4 +13,11 @@ public class Board {
 		this.kitchenMap = kitchenMap;
 	}
 	
+	public static void printBoard(int length)
+	{
+		for (int i = 0; i<length; i++)
+		{
+			Room.printRooms(length);
+		}
+	}
 }

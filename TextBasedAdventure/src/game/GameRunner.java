@@ -1,5 +1,12 @@
 package game;
 
-public class GameRunner {
+import board.Board;
 
+public class GameRunner {
+	
+	public static void main(String[] args)
+	{
+		Board.printBoard(5);
+	}
+	
 }
