@@ -15,7 +15,10 @@ public class GameRunner {
 		System.out.println("Inspired by Master Chef and Chopped");
 		System.out.println("------------");
 		System.out.println("Your Recipe: Mac and Cheese");
-		System.out.println("Missing ingredient: milk");
+		System.out.println("Missing ingredient: ");
+		
+
+		
 		System.out.println("------------");
 		Board.printBoard(4);
 		System.out.println("------------");
