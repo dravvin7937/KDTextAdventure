@@ -1,17 +1,20 @@
 package ingredients;
 
-public class Ingredient {
+import items.item;
 
-	static String[] ingredients = {"mushrooms", "bacon", "cheese", "milk", "butter", "flour", "milk", "basil", "flour", "milk"}; 
+public class Ingredient extends item{
+
+	//static String[] ingredients = {"mushrooms", "bacon", "cheese", "milk", "butter", "flour", "milk", "basil", "flour", "milk"}; 
+	private String associatedRecipe;
 	
-	public Ingredient()
+	public Ingredient(String associatedRecipe)
 	{
-		
+		this.associatedRecipe = associatedRecipe;
 	}
 	public static String randomIngredient(String[] arr)
 	{
-		arr = ingredients;
-		int r = (int)(Math.random()*10);
-		return ingredients[r];
+//		arr = ingredients;
+//		int r = (int)(Math.random()*10);
+//		return ingredients[r];
 	}
 }
