@@ -7,7 +7,7 @@ import people.Person;
 
 public class Room {
 
-	private static String[] ingredients = {"milk", "butter", "flour"};
+	private static String[] ingredients = {"mushrooms", "bacon", "cheese", "milk", "butter", "flour", "black pepper", "basil", "onions", "tomatoes"};
 	private static String[] chefs = {"Gordon Ramsey", "Bobby Flay", "Giada DiLaurentis", "Rachel Ray", "Karys Logue", "Gordon Ramsey", "Bobby Flay", "Giada DiLaurentis", "Rachel Ray", "Karys Logue"}; 
 	//Field to be added bc every room should have a memory of what it is person or ingredient
 	//Room constructor can randomize
@@ -27,11 +27,11 @@ public class Room {
 		{
 			if (i%r==0)
 			{
-				 room = "[" + Person.randomPerson(chefs) + "]";
+				 room = "[" + Person.getRandom(chefs) + "]";
 			}
 			else
 			{
-				 room = "[" + Ingredient.randomIngredient(ingredients) + "]";
+				 room = "[" + Ingredient.getRandom(ingredients) + "]";
 			}
 			row[i] = room;
 			System.out.print(row[i]);

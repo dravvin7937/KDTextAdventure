@@ -19,7 +19,7 @@ public abstract class item {
 	{
 		return name + " does " + description + ".";
 	}
-	public String getRandom(String[] arr)
+	public static String getRandom(String[] arr)
 	{
 		//arr is the hardcoded array of either ingredients or people, it will pick a random index from each array
 		int r = (int)(Math.random()*10);

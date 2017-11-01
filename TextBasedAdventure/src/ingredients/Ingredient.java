@@ -4,17 +4,20 @@ import items.item;
 
 public class Ingredient extends item{
 
-	static String[] ingredients = {"mushrooms", "bacon", "cheese", "milk", "butter", "flour", "black pepper", "basil", "onions", "tomatoes"}; 
-	private String associatedRecipe;
 	
-	public Ingredient(String associatedRecipe)
+	private static String name; 
+	private static String description;
+	private static String[] associatedRecipes;
+	
+	public Ingredient(String[] associatedRecipes)
 	{
-		this.associatedRecipe = associatedRecipe;
+		super(name,description);
+		Ingredient.associatedRecipes = associatedRecipes;
 	}
-	public static String randomIngredient(String[] arr)
-	{
-		arr = ingredients;
-		int r = (int)(Math.random()*10);
-		return ingredients[r];
-	}
+//	public static String randomIngredient(String[] arr)
+//	{
+//		int r = (int)(Math.random()*10);
+//		arr[r] = name;
+//		return arr[r];
+//	}
 }

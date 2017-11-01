@@ -20,7 +20,7 @@ public class GameRunner {
 
 		
 		System.out.println("------------");
-		Board.printBoard(4);
+		Board.printBoard(5);
 		System.out.println("------------");
 		System.out.println(" Your Current Position:");
 		
