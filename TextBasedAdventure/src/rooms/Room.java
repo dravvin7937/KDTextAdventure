@@ -7,7 +7,7 @@ import people.Person;
 
 public class Room {
 
-	private static String[] ingredients = {"mushrooms", "bacon", "cheese", "milk", "butter", "flour", "black pepper", "basil", "onions", "tomatoes"};
+	private static String[] ingredients = {"eggs", "milk", "pasta", "cheese", "apple", "pumpkin", "sugar", "flour", "butter", "cinnamon"};
 	private static String[] chefs = {"Gordon Ramsey", "Bobby Flay", "Giada DiLaurentis", "Rachel Ray", "Karys Logue", "Gordon Ramsey", "Bobby Flay", "Giada DiLaurentis", "Rachel Ray", "Karys Logue"}; 
 	//Field to be added bc every room should have a memory of what it is person or ingredient
 	//Room constructor can randomize
